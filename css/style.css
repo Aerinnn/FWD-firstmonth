@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+.top-container{
+background-color: #C56824;
+position: relative;
+padding-top: 100px;
+}
+
+h1{
+    color: #CDF2CA;
+    font-size: 6rem;
+    margin: 30px auto 0 auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2{
+    color: #F3F0D7;
+    font-size: 3rem;
+    padding-bottom: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
