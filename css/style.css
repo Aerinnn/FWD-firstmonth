@@ -118,3 +118,38 @@ p{
     
   }
   
+@media  (max-width: 30em) {
+    .my-img{
+        width: 40%;
+    }
+
+    .top-container{
+       padding-top: 50px;
+
+    }
+    h1{
+        font-size: x-large;
+    }
+    h2{
+        font-size: medium;
+    }
+    h3{
+        font-size: medium;
+    }
+
+    .intro-me{
+        width: 70%;
+    }
+
+    .skill-row{
+        width: 70%;
+    }
+
+    .experience-row{
+        width: 70%;
+    }
+
+    .contact-row{
+        width: 70%;
+    }
+}
