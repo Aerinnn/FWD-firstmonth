@@ -1,4 +1,4 @@
-
+/* 
 
 body{
     text-align: center;
@@ -152,4 +152,159 @@ p{
     .contact-row{
         width: 70%;
     }
+} */
+body{
+    text-align: center;
+    margin: 0;
 }
+
+.top-container{
+    /* background-color: #94618E; */
+    background-color: #E39FF6;
+    padding-top: 50px;
+    margin-bottom: 80px;
+}
+
+h1{
+    color: #49274A;
+    font-size: 6em;
+    font-family: 'Karla', sans-serif;
+}
+
+h2{
+    color: #7a4988;
+    font-size: 3em;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 50px;
+}
+
+img{
+    width: 18%;
+    padding-bottom: 30px;
+}
+
+p{
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 1.1em;
+    line-height: 2;
+}
+
+h3{
+    color: #9a62aa;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+hr{
+    border-top: 10px dotted #E39FF6;
+    width: 5%;
+    margin-bottom: 0;
+}
+
+.bottom-container a{
+    color: #9a62aa;
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #49274A;
+}
+.about-me{
+    width: 35%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.skills-row{
+    width: 35%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.exp-row{
+    width: 35%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.contact-row{
+    width: 35%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    background: #ffffff;
+    padding: 10px 20px 10px 20px;
+    border: solid #9934ad 2px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #E39FF6;
+    text-decoration: none;
+  }
+  
+  .bottom-container{
+      background-color: #E39FF6;
+      padding: 50px;
+  }
+
+  .credit-row{
+      color: white;
+      font-family: 'Karla', sans-serif;
+      font-size: 19px;
+      font-weight: 500;
+      padding-top: 15px;
+  }
+
+  @media only screen and (max-width:750px)
+  {
+      
+      h1{
+          font-size: 3em;
+          /* text-align: justify; */
+      }
+      h2{
+          font-size: 1.5em;
+      }
+      h3{
+          font-size: 1.3em;
+      }
+      p{
+        text-align: justify;
+        font-size: 1em;
+      }
+      img{
+          width: 40%;
+      }
+      hr{
+          width: 10%;
+      }
+      .about-me{
+          width: 60%;
+      }
+      .skills-row{
+          width: 60%;
+      }
+      .exp-row{
+          width: 60%;
+      }
+      .contact-row{
+          width: 60%;
+      }
+      .bottom-container a{
+          padding: 10px;
+      }
+  }
